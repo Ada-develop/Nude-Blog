@@ -8,7 +8,7 @@
 /* Zagolovki */
 h1 {
     text-align: center;
-    font-size: 78px;
+    font-size: 125px;
     color: aliceblue;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 2px;
@@ -163,9 +163,14 @@ li i{
 
 /* Media queries */
 
-@media screen and (max-device-width: 668px) and (min-device-width: 375px) and (orientation: portrait){
+@media screen and (max-device-width: 800px) and (min-device-width: 375px) and (orientation: portrait){
     
     h1{
-        font-size: 1px;
-    }    
+        font-size: 135px;
+    }
+    header{
+        height: 600px;
+        background-attachment: local;
+    }
+    
 }

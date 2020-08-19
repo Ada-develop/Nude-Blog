@@ -1,0 +1,171 @@
+/* Reset */
+
+* {
+    padding: 0;
+    margin: 0
+}
+
+/* Zagolovki */
+h1 {
+    text-align: center;
+    font-size: 78px;
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+nav {
+    height: 50px;
+    padding-top: 25px;
+    background: #40010D;
+    margin-bottom: 25px;
+    padding-bottom: 30px;
+}
+
+
+/* Fotka zagolovka */
+
+#cover {
+    display: block;
+    height: 350px;
+    width: 1000px;
+    margin: 0 auto;
+    ;
+}
+
+header {
+    background-image:
+        linear-gradient(rgba(140, 3, 14, 0.3), rgba(0, 0, 0, 0.5)), url(../IMG/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.postimg {
+    height: 275px;
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+body {
+    background: #0D0D0D;
+}
+
+h3,
+p {
+    color: aliceblue;
+}
+
+
+ul {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+
+nav ul li {
+    display: inline-block;
+    padding-left: 70px;
+    
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+
+article {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+/* Text v poste*/
+
+article p,
+article a {
+    font-family: 'Niramit', sans-serif;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/*Knoptki article*/
+
+article a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    background: #A60522;
+    padding-top: 1px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+nav a:hover {
+    color: #8C030E;
+}
+
+article a:hover {
+    color: #0D0D0D;
+}
+
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer a:hover {
+    color: #8C030E;
+}
+
+li {
+    color: aliceblue;
+}
+
+hr{
+    margin-top: 10px;
+    border: solid 1px #8C030E;
+    background: #8C030E;
+}
+
+li i{
+    font-size: 45px;
+}
+
+
+/* Media queries */
+
+@media screen and (max-device-width: 668px) and (min-device-width: 375px) and (orientation: portrait){
+    
+    h1{
+        font-size: 1px;
+    }    
+}
